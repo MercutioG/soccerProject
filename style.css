@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ff00ff;
+}
+
+#field{
+    width: 90vw;
+    height: 40vw;
+    border: 10px solid black;
+    background-color: #009000;
+    position: relative;
+    overflow: hidden;
+    cursor: url("./cleet.png"), pointer;
+}
+
+#ball{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+}
